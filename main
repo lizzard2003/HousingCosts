@@ -1,0 +1,26 @@
+//Liz D.
+//Housing Cost pg 150 problem 3 c++ early objects
+
+#include <iostream>
+
+int main() {
+ 
+  double a,b,c,d, e ,total,yearly;
+  
+  
+  std::cout << "How much do you pay in rent/mortgage?";
+  std::cin>>a;
+  std::cout << "How much do you pay for utilities?";
+  std::cin>>b;
+  std::cout << "How much do you pay for phones?";
+  std::cin>>c;
+  std::cout << "How much do you pay in cable?";
+  std::cin>>d;
+  std::cout << "How much do you pay for InternetService?";
+  std::cin>>e;
+  total=a+ b+c+d+e;
+  std::cout<<"The sum of your monthly expenses is: "<<total<<std::endl;
+  yearly=total*12;
+  std::cout<<"Your sum annually is :"<<" "<<yearly<<std::endl;
+
+}
